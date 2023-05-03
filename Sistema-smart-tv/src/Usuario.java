@@ -28,5 +28,10 @@ public class Usuario {
 
         smartTv.changeChannel(10);
         System.out.println("O canal selecionado é: " + smartTv.channel);
+
+       
     }
+
+
+    
 }
