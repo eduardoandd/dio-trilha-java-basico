@@ -1,8 +1,8 @@
 public class FacebookMessenger extends  ServicoMensagemInstatanea {
-    public void enviarMensagem(){
-        validarConectadoInternet();
-        System.out.println("ENVIAR MENSAGEM PELO Facebook");
-        receberMensagem();
-        salvarHistorico();
+    public void enviarMensagem(){  
+        System.out.println("ENVIAR MENSAGEM PELO FACEBOOK");
+    }
+    public void receberMensagem(){
+        System.out.println("RECEBENDO MENSAGEM PELO FACEBOOK");
     }
 }

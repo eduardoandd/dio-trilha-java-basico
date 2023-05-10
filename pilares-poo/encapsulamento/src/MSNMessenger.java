@@ -1,8 +1,9 @@
 public class MSNMessenger extends  ServicoMensagemInstatanea {
-    public void enviarMensagem(){
-        validarConectadoInternet();
+
+    public void enviarMensagem(){  
         System.out.println("ENVIAR MENSAGEM PELO MSN");
-        receberMensagem();
-        salvarHistorico();
+    }
+    public void receberMensagem(){
+        System.out.println("RECEBENDO MENSAGEM PELO MSGN");
     }
 }
