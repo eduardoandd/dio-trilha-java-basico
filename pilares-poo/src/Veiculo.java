@@ -20,7 +20,7 @@ public abstract class Veiculo {
 
         if(confereCombustivel(temCombustivel) == true){
             System.out.println("VEICULO LIGADO");
-        }
+        } 
         else{
             System.out.println("ABASTECER");
             abastecer();
